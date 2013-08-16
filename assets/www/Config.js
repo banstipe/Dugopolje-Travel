@@ -4,7 +4,11 @@ require.config({
 		'jquery': 'jquery-2.0.3.min',
 		'sammy': 'sammy-0.7.4',	
 		'knockout': 'knockout-2.3.0',
-		'cordova' : 'cordova.js'		
+		'knockout-mapping': 'knockout-mapping',
+		'iscroll': 'iscroll4',
+		'swipeview':'swipeview',
+		'bootstrap': 'bootstrap.min',
+		'cordova' : 'cordova'		
 	},
 
 	shim: {		
@@ -15,6 +19,9 @@ require.config({
 	'knockout': {
 			deps: ['jquery'],
 			exports: 'knockout'
+		},
+	'cordova':{
+		deps: ['jquery'],
 		}
 		
 	},
